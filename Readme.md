@@ -1,4 +1,4 @@
-[![](http://img.shields.io/badge/Swift-3.1-blue.svg)]()
+[![](http://img.shields.io/badge/Swift-4.0-blue.svg)]()
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg)](https://github.com/Carthage/Carthage)
 [![](http://img.shields.io/badge/operator_overload-nope-green.svg)](https://gist.github.com/duemunk/61e45932dbb1a2ca0954)
 
