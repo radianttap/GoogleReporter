@@ -24,7 +24,7 @@ extension Dictionary {
 }
 
 /// GoogleReporter is a class that enables tracking events to Google Analytics. The class uses the
-/// Google Analytics Measurement protocol which is 
+/// Google Analytics Measurement protocol which is
 /// [documented in full here](https://developers.google.com/analytics/devguides/collection/protocol/v1/reference).
 ///
 /// The class support two specific types of events and generic events.
@@ -38,7 +38,7 @@ extension Dictionary {
 /// - Note: A valid Google Analytics tracker ID must be set with `configure(withTrackerId:)` before
 /// reporting any events.
 public class GoogleReporter {
- 
+    
     /// Returns the singleton reporter instance.
     public static let shared = GoogleReporter()
     
@@ -224,7 +224,7 @@ public class GoogleReporter {
         #if os(iOS) || os(tvOS) || os(watchOS)
             let size = UIScreen.main.bounds.size
         #elseif os(OSX)
-            let size = NSScreen.main()?.frame.size ?? .zero
+            let size = NSScreen.main?.frame.size ?? .zero
         #endif
         
         return "\(size.width)x\(size.height)"
